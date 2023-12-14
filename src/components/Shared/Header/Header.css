@@ -1,0 +1,50 @@
+header{
+    
+    padding: 18px 52px;
+    background-color: #ffffff;
+    color: #000;
+    
+    
+}
+
+header h2{
+    margin: 0;
+    color: #000;
+    font-family: Source Sans Pro;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 51px; /* 150% */
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li{
+    display: inline;
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+nav ul li a{
+    color: #000;
+    font-family: Source Sans Pro;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.542px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
