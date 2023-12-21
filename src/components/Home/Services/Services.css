@@ -1,0 +1,83 @@
+.services{
+    width: 85%;
+    margin:100px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Service-items{
+    width: 48%;
+}
+.Service-items h2{
+    color: #000;
+    text-align: right;
+    font-family: Source Sans Pro;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 56px; /* 116.667% */
+}
+
+.Service-items h3{
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 51px; /* 150% */
+}
+.Service-items p{
+    color: #FFF;
+    font-family: Sintony;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+}
+span{
+    color: #FFC700;
+   
+}
+
+.service-box{
+    background-color: black;
+    color: white;
+    padding: 40px 40px 40px 100px;
+    margin-top: 80px; 
+    position: relative;
+
+}
+.service-box2{
+    background-color: black;
+    color: white;
+    padding: 40px 100px 40px 40px;
+    margin-top: 80px; 
+    position: relative;
+}
+.icon-box{
+    width: 122px;
+    height: 122px;
+    background: #FFC700;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.icon-box img{
+    width: 64px;
+    height: 64px;
+    padding: 4px 4px 3px 4px;
+   
+    
+}
+.icon-1{
+    position: absolute;
+    top: 15%;
+    left: -8%;
+}
+.icon-2{
+    position: absolute;
+    top: 15%;
+    right: -8%;
+}

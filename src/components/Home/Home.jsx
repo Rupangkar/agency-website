@@ -1,7 +1,9 @@
 import React from 'react';
 import Header from '../Shared/Header/Header';
 import Banner from './Banner/Banner';
-import Services from './Service/Services';
+import Services from './Services/Services';
+import Gallery from './Gallery/Gallery';
+
 
 
 const Home = () => {
@@ -10,6 +12,8 @@ const Home = () => {
             <Header></Header>
             <Banner></Banner>
             <Services></Services>
+            <Gallery></Gallery>
+            
         </div>
     );
 };
